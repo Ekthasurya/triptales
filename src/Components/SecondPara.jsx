@@ -6,11 +6,15 @@ import ImageSliderFour from './Slider/ImageSliderFour'
 import TravelCard from './TravelCard'
 import ImageSliderFive from './Slider/ImageSliderFive'
 import AdBanner from './AdBanner'
+import ProductListing from './ProductListing'
+import SeaSoothingComponent from './SeaSoothingComponent'
 // import image from './caption.jpg';
 
 const SecondPara = () => {
   return (
     <>
+    <ProductListing/>
+    <SeaSoothingComponent/>
     <div className="trip-builder-card">
     <div className="text-content">
         <p className="powered-by">
