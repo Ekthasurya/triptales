@@ -1,7 +1,7 @@
 // src/components/ProductDetails.js
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { babyProducts } from '../products';
+import { babyProducts } from '../data/products';
 
 const ProductDetails = () => {
   const { productId } = useParams();
