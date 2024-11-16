@@ -3,6 +3,7 @@ import { FaCheckCircle, FaRegCircle } from 'react-icons/fa';
 import FlightInfoCard from './FlightInfoCard';
 import FareSelector from './FareSelector';
 import { TiThMenu } from 'react-icons/ti';
+import { homeHeader } from '../data/homeheader';
 
 const HomeSection = () => {
 
@@ -25,8 +26,8 @@ const HomeSection = () => {
     <div className='homeSectionBody'>
        <div className='homeNavbar'>
         <div className='navpoint'>
-          <h3 className='headText'>Triptales</h3>
-        <h5 className='subText'>Uncover the Timeless Beauty of Rural Wonders</h5></div>
+          <h3 className='headText'>{homeHeader?.headText}</h3>
+        <h5 className='subText'>{homeHeader?.subText}</h5></div>
         <div className='navpoint menubar'><button className='signButton'>Login/SignUp</button> <div className='menu'> <TiThMenu  color='#ccc'  size={30} /></div></div>
        </div>
 
